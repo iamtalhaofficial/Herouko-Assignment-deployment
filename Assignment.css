@@ -1,0 +1,53 @@
+.container{
+    overflow: hidden;
+}
+.tab
+{
+    border: 20px solid;
+    padding: 10px;
+    background-color: lightblue;
+    
+    
+}
+
+.box{
+position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  width: 33%;
+  height: 100px;
+  box-sizing: border-box;
+  border:black ;
+
+}
+
+
+tr{
+    transition: all .25s ease-in-out;
+}
+ tr:hover{background-color: lightgray; cursor: pointer;}
+
+ button{
+     background-color:aquamarine;
+     border: 2px solid #4CAF50;
+     font-size: 12px;
+     padding: 25px;
+     }
+
+ button:hover{
+     background-color: lightsteelblue;
+ }
+
+ table {
+    width: 50%;
+  }
+  
+  tr:hover {background-color: #f5f5f5;}
+
+  th {
+    background-color:green;
+    color: white;
+  }
+
+  tr:nth-child(even) {background: #CCC}

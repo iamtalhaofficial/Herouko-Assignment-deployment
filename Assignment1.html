@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Assignment.css">
+    
+    
+</head>
+<body>
+    
+    
+    <div class="container">
+        <h1>
+            Lists of Persons
+        </h1>
+        <div class="tab-1">
+            <table id="table" border="5">
+                <tr >
+                    <th>
+                        Name
+                    </th>
+                   
+                     <th>
+                        Gender
+                    </th>
+                    
+                    <th>
+                        Age
+                    </th>
+                    <th>
+                        City
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                    
+                 </tr>
+            </table>
+    </div>
+
+   
+        <div class="box">
+            <h2>
+                Add/Update Person Form
+            </h2>
+         <div class="tab">
+            Name: <input type="text" name="name" id="name" placeholder="Enter Name">
+            <br>
+            <br>
+            Gender: <select name="gender" id="gender" > 
+                <option value="male" id="male">Male</option>
+                <option value="female" id="female">Female</option>
+               </select>
+            <br>
+            <br>
+            Age: <input type="text" name="age" id="age" placeholder="Enter Age">
+            <br>
+            <br>
+            City: <select name="city" id="city" > <option value="lahore" id="lahore">Lahore</option>
+            <option value="Islamabad" id="islamabad">Islamabad</option>
+            <option value="Karachi" id="karachi">Karachi</option>
+        </select>
+            <br>
+            <br>
+            <button type="button" onclick="window.location.href=window.location.href">
+                reset
+            </button>
+            <button type="button" onclick="addingrow();">
+                add
+            </button>
+            <button type="button"  onclick="updating();">
+                update
+            </button>
+            <button onclick="ResetForm()">
+                Reset Form
+            </button>
+
+
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="./Assignment.js"></script>
+    
+</body>
+</html>
