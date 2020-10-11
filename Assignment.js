@@ -75,13 +75,13 @@ function updating()
         console.log(":",index)
 
     
-
-    row[i].rows[index].cells[0].innerHTML=document.getElementById("name").value;
-    row[i].rows[index].cells[1].innerHTML=document.getElementById("gender").value;
-    row[i].rows[index].cells[2].innerHTML=document.getElementById("age").value;
-    row[i].rows[index].cells[3].innerHTML=document.getElementById("city").value;
-    
     }
+    row.rows[index].cells[0].innerHTML=document.getElementById("name").value;
+    row.rows[index].cells[1].innerHTML=document.getElementById("gender").value;
+    row.rows[index].cells[2].innerHTML=document.getElementById("age").value;
+    row.rows[index].cells[3].innerHTML=document.getElementById("city").value;
+    
+    
 
 };
   
@@ -93,7 +93,7 @@ function updating()
 
 
     //Document not load and script load first. 
-    //But Allhumdullilah sorted out
+   
 
         
     
